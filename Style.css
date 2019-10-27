@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body
+{
+  background-color: #303030;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+nav
+{
+  top: 0;
+  width: 100%;
+  background-color: #101010;
+  padding: 15px 10px 15px 10px;
+  text-align: center;
+  position: sticky;
+}
+nav a
+{
+  text-decoration: none;
+  color: white;
+  padding: 2vw 2vw .8vw 2vw;
+  font-family: 'Montserrat', sans-serif;
+}
+nav a:hover
+{
+  background-color: gray;
+  padding: .75vw 2vw .75vw 2vw;
+}
+.background
+{
+  background-size: contain;
+}
+.courseList
+{
+  border-width: 15px 0px 0px 0px;
+  border-color: #22BBFE;
+  border-style: solid;
+}
+.courseList li
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  list-style-type: none;
+  font-size: 1vw;
+}
+.courseList dt
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  font-size: 1vw;
+  padding-bottom: 25px;
+}
+.projectList
+{
+  border-width: 15px 0px 0px 0px;
+  border-color: #22BBFE;
+  border-style: solid;
+  list-style-type: none;
+}
+.projectList li
+{
+  list-style-type: none;
+}
+.projectList dt
+{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #aeaeae;
+  font-size: 1vw;
+  padding-bottom: 35px;
+}
+.projectList dt:hover
+{
+  cursor: default;
+}
+.projectList a
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  text-decoration: none;
+  font-size: 1vw;
+}
+.projectList a:hover
+{
+  background-color: #aeaeae;
+  color: black;
+  padding: .2vw;
+}
+.linksDividingLine
+{
+  border-width: 15px 0px 0px 0px;
+  border-color: #22BBFE;
+  border-style: solid;
+}
+.contactDividingLine
+{
+  border-width: 15px 0px 0px 0px;
+  border-color: #22BBFE;
+  border-style: solid;
+}
+.grid-container
+{
+  margin-bottom: 2vw;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid-item
+{
+  padding: 1vw;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  font-size: 2vw;
+}
+.contactInfo h1, h2
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  font-size: 2.5vw;
+}
+input[type=submit], input[type=reset]
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #181818;
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+.linksContent th, a
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #aeaeae;
+  font-size: 1.25vw;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+.linksContent a:hover
+{
+  background-color: #aeaeae;
+  color: black;
+  padding: .5vw;
+}
