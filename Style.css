@@ -85,7 +85,7 @@ nav a:hover
 {
   background-color: #aeaeae;
   color: black;
-  padding: .2vw;
+  padding: .1vw;
 }
 .linksDividingLine
 {
@@ -140,4 +140,30 @@ input[type=submit], input[type=reset]
   background-color: #aeaeae;
   color: black;
   padding: .5vw;
+}
+#csi_2300:hover:after
+{
+  content: url(java_book.jpg);
+  float: right;
+  top: 75px;
+}
+#csi_2300:hover{
+  color: white;
+  cursor: pointer;
+}
+#csi_2470:hover{
+  color: white;
+  cursor: pointer;
+}
+#csi_2470:hover:after{
+  content: url(networking_book.jpg);
+  float: right;
+}
+#csi_2500:hover{
+  color: white;
+  cursor: pointer;
+}
+#csi_2500:hover:after{
+  content: url(OS_book.jpg);
+  float: right;
 }
