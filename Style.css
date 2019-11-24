@@ -54,6 +54,11 @@ nav a:hover
 .container:hover .middle{
     opacity: 1;
 }
+.middle.courseList{
+  position: absolute;
+  top: 45%;
+  left: 30%;
+}
 .courseList li
 {
   font-family: 'Montserrat', sans-serif;
@@ -76,7 +81,7 @@ nav a:hover
 {
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
-  color: #aeaeae;
+  color: white;
   font-size: 1vw;
   padding-bottom: 35px;
 }
@@ -87,7 +92,7 @@ nav a:hover
 .projectList a
 {
   font-family: 'Montserrat', sans-serif;
-  color: #aeaeae;
+  color: white;
   text-decoration: none;
   font-size: 1vw;
 }
@@ -96,6 +101,12 @@ nav a:hover
   background-color: #aeaeae;
   color: black;
   padding: .1vw;
+}
+.container .middle .projectList{
+  width: 75%;
+  position: relative;
+  top: 25px;
+  left: 150px;
 }
 .grid-container
 {
@@ -108,14 +119,18 @@ nav a:hover
   padding: 1vw;
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  color: #aeaeae;
-  font-size: 2vw;
+  color: white;
+  font-size: 1.5vw;
+}
+fieldset{
+  position: relative;
+  max-width: 100%;
 }
 .contactInfo h1, h2
 {
   font-family: 'Montserrat', sans-serif;
-  color: #aeaeae;
-  font-size: 2.5vw;
+  color: white;
+  font-size: 1.75vw;
 }
 input[type=submit], input[type=reset]
 {
@@ -128,10 +143,9 @@ input[type=submit], input[type=reset]
 {
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 1.25vw;
+  font-size: 1vw;
   text-decoration: none;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding: 10px 10px 25px 0px;
 }
 .linksContent a:hover
 {
