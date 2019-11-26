@@ -18,27 +18,35 @@
 
       <div class="container">
         <div class="background">
-            <img src="background without logo.png" alt="Picture of Website Designer, Noah Bossner" width="100%" height="auto">
             <div class="middle">
                 <div class="contactInfo">
-                  <!--Form Headers-->
-                  <h1>CONTACT ME</h1>
-                  <h2>Please submit form below for Business and Personal inquiries</h2>
-                  <form class="contactForm" method="post">
+                  <form action="connect.php" method="post">
                     <fieldset>
+                      <!--Form Headers-->
+                      <h1>CONTACT ME</h1>
+                      <h2>Please submit form below for Business and Personal inquiries</h2>
                       <div class="grid-container">
                         <!--Full name text box and label-->
                         <div class="grid-item"><label for="fullName">Full Name:</label></div>
                         <div class="grid-item"><input type="text" name="fullName"></div>
                         <!--Email address input and label-->
-                        <div class="grid-item"><label for="emailBox">E-mail:</label></div>
-                        <div class="grid-item"><input type="email" name="22BBFE" value=""></div>
-                        <!--Radio button for Business or personal-->
-                        <div class="grid-item"><input type="radio" name="contact" value="Personal">Personal</div>
-                        <div class="grid-item"><input type="radio" name="contact" value="Business">Business</div>
+                        <div class="grid-item"><label for="email">E-mail:</label></div>
+                        <div class="grid-item"><input type="email" name="email" value=""></div>
+                        <!--Text Input box for relationship-->
+                        <div class="grid-item"><label for="relationship">How do you know me?</label></div>
+                        <div class="grid-item"><input type="text" name="relationship"></div>
+                        <!--Input box for phone number-->
+                        <div class="grid-item"><label for="phoneNumber">Phone Number:</label></div>
+                        <div class="grid-item"><input type="text" name="phoneNumber"></div>
+                        <!--Input date type-->
+                        <div class="grid-item"><label for="address">Enter Address Here:</label></div>
+                        <div class="grid-item"><input type="text" name="address"></div>
+                        <!--Input type for date of last interaction-->
+                        <div class="grid-item"><label for="date">Today's Date:</label></div>
+                        <div class="grid-item"><input type="date" name="date"></div>
                         <!--Input box for comment-->
-                        <div class="grid-item"><label for="contactTextarea">Message:</label></div>
-                        <div class="grid-item"><textarea name="contactTextarea" rows="8" cols="80"></textarea></div>
+                        <div class="grid-item"><label for="notes">Message:</label></div>
+                        <div class="grid-item"><textarea name="notes" rows="8" cols="80"></textarea></div>
                         <!--Submit button and Reset button-->
                         <div class="grid-item"><input type="submit" name="submitButton" value="Submit Form"></div>
                         <div class="grid-item"><input type="reset" name="resetButton" value="Clear Form"></div>
