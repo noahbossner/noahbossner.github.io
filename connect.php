@@ -1,5 +1,5 @@
 <?php
-    $connectLink = mysql_connect("localhost", "root", "kjv1611", "nbossner");
+    $connectLink = mysql_connect("localhost", "root", "root", "nbossner");
 
     if($connectLink === false){
       die("ERROR: Could not connect. " . mysqli_connect_error());
